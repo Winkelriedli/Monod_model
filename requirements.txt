@@ -1,5 +1,5 @@
-matplotlib==3.5.1
-numpy==1.21.5
-scipy==1.11.3
-streamlit==1.18.1
+matplotlib
+numpy
+scipy
+streamlit
 altair<5
