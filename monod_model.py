@@ -107,7 +107,7 @@ plot_monod_model(Ks, mu_max, S0, X0, Y)
 
 st.markdown(
     """
-            The point where the substrate concentration (s) crosses the dashed line of Ks the specific growth rate (μ) is half of the maximum growth rate (μ_max).
+            The point where the blue line of the substrate concentration (s) crosses the dashed line of Ks the specific growth rate (μ) is half of the maximum growth rate (μ_max).
             
             s = Ks, then μ = μ_max / 2
              """
