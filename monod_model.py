@@ -57,7 +57,7 @@ Ks = st.sidebar.slider("Ks (g/l)", min_value=0.05, max_value=10.0, value=0.5, st
 mu_max = st.sidebar.slider("μ_max (1/h)", min_value=0.5, max_value=2.5, value=2.0, step=0.1)
 S0 = st.sidebar.slider("S0 (g/l)", min_value=10.0, max_value=30.0, value=25.0, step=1.0)
 X0 = st.sidebar.slider("X0 (g/l)", min_value=0.01, max_value=1.0, value=0.05, step=0.01)
-Y = st.sidebar.slider("Yield Coefficient (Y)", min_value=0.1, max_value=1.0, value=0.5, step=0.1)
+Y = st.sidebar.slider("Yield Coefficient (Y)", min_value=0.1, max_value=1.0, value=0.5, step=0.05)
 
 
 # Function to plot the Monod model
