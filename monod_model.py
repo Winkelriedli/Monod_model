@@ -69,7 +69,7 @@ def plot_monod_model(Ks, mu_max, S0, X0, Y):
     S = np.linspace(0, 60, 1000)
 
     # Time points for solving differential equations
-    t = np.linspace(0, 10, 1000)
+    t = np.linspace(0, 11, 1000)
 
     # First plot: Monod equation (Specific Growth Rate vs Substrate Concentration)
     axs[0].axvline(x=Ks, color="black", linestyle="--", ymax=mu_max / 5.2, lw=1, label="Ks")
