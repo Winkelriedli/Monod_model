@@ -90,7 +90,7 @@ def plot_monod_model(Ks, mu_max, S0, X0, Y):
     axs[1].plot(t, sol[:, 0], label="Substrate Concentration (s)", lw=2, color="blue")
     axs[1].plot(t, sol[:, 1], label="Cell Concentration (x)", lw=2, color="red")
     axs[1].set_ylim(0, 35)
-    axs[1].set_xlim(0, 6)
+    axs[1].set_xlim(0, 10.5)
     axs[1].set_xlabel("Time (h)")
     axs[1].set_ylabel("Concentration (g/l)")
     axs[1].legend()
